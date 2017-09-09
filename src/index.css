@@ -1,0 +1,128 @@
+.container {
+	/* background-color: #D1E8FF; */
+	border: thick solid #808080;
+	padding: 10px;
+	margin: 10px;
+}
+
+span {
+	width: 78px;
+	display: inline-block;
+	/* font: small verdana; */
+	text-align: right;
+}
+
+h1 {
+	font: large;
+}
+
+td {
+	width: 78px;
+	/* font: x-small Verdana; */
+}
+
+input,
+button,
+select {
+	width: 78px;
+	font: x-small Verdana;
+	color: #fff;
+	background: transparent;
+	border: 0px;
+	background: rgba(51, 51, 51, 0.25);
+}
+
+:disabled {
+	color: #a0a0a0;
+}
+
+.th {
+	background: transparent;
+}
+
+.row {
+	background: rgba(51, 51, 51, 0.25);
+}
+
+.row:nth-child(even) {
+	background: transparent;
+}
+
+.on {
+	color: darkgreen;
+	background-color: lightgreen;
+	font-weight: bolder;
+}
+
+.off {
+	color: darkred;
+	background-color: rosybrown;
+	font-weight: bold;
+}
+
+.bidSize {
+	color: darkseagreen;
+}
+
+.bidPrice {
+	color: mediumseagreen;
+}
+
+.askSize {
+	color: darksalmon;
+}
+
+.askPrice {
+	color: salmon;
+}
+
+.hide {
+	display: none;
+}
+
+#user,
+#apiKey,
+#apiSecret {
+	width: 400px;
+	padding: 1px;
+	text-align: left;
+}
+
+body {
+	background-color: rgba(102, 105, 104, 0.9);
+	background-image: radial-gradient(farthest-side ellipse at 10% 0, rgba(102, 105, 104, 0.9), rgba(93, 112, 119, 0.89), rgba(160, 174, 150, 0.9)), url(/img/bgnoise_lg_dark.png);
+	min-height: 100vh;
+	margin: auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	font-family: "Verdana", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: x-small;
+	padding-bottom: 0;
+	line-height: 1.35em;
+	color: #fff;
+}
+
+table {
+	border: 1px solid #222;
+	margin: 2px;
+}
+
+td,
+input {
+	text-align: right;
+}
+
+.widget {
+	background: rgba(51, 51, 51, 0.4);
+}
+
+.center{
+	text-align: center;
+}
